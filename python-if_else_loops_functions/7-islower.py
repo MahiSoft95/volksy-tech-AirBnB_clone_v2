@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 def islower(c):
-    if c.islower():
-        return '{} is lower'.format(c)
+    if ord(c) >= 97 and ord(c) <= 122:
+        return True
     else:
-        return '{} is upper'.format(c)
+        return False
