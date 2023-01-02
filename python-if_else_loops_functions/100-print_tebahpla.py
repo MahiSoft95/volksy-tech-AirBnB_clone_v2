@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-alphas=''
+alphas = ''
 for k in range(97, 123):
     if k % 2 !== 0:
-        k=k-32
+        k = k-32
     alphas=alphas+chr(k)
-print(alphas[::-1])
+print('{}'.format(alphas[::-1]))
