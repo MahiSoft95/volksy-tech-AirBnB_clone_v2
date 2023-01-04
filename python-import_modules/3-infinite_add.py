@@ -5,4 +5,4 @@ if __name__ == "__main__":
     sum = 0
     for k in x:
         sum = sum + int(k)
-    print("{}".format, sum)
+    print("{}".format(sum))
