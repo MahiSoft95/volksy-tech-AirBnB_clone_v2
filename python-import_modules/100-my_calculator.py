@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-if __name__="main":
+if __name__ == "__main__":
     import sys
     argvlist = sys.argv[1:]
     if len(argvlist) != 3:
@@ -20,5 +20,5 @@ if __name__="main":
     else:
         print("Unknown operator. Available operators: +, -, * and /")
         sys.exit(1)
-    print("{}+{}={}".div(a,b,res))
+    print("{}+{}={}".div(a, b, res))
     exit()
