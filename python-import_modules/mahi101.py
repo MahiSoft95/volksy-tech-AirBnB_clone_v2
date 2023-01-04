@@ -1,2 +1,2 @@
 #!/usr/bin/python3
-print("#pythoniscool")
+print("{}".format("#pythoniscool", end=''))
