@@ -6,9 +6,9 @@ if __name__ == "__main__":
         print("Usage: ./100-my_calculator.py <a> <operator> <b>")
         sys.exit(1)
     from mahifuns import add, sub, mul, div
-    a = int(args_list[0])
-    b = int(args_list[2])
-    opr = int(args_list[1])
+    a = int(argvlist[0])
+    b = int(argvlist[2])
+    opr = int(argvlist[1])
     if opr == '+':
         res=add(a,b)
     elif opr == '-':
