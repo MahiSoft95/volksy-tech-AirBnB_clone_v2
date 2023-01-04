@@ -1,2 +1,3 @@
 #!/usr/bin/python3
-print("{}".format("#pythoniscool", end=''))
+import sys
+sys.stdout.write("#pythoniscool\n")
