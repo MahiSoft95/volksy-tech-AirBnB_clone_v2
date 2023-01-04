@@ -8,7 +8,7 @@ if __name__ == "__main__":
     from mahifuns import add, sub, mul, div
     a = int(argvlist[0])
     b = int(argvlist[2])
-    opr = int(argvlist[1])
+    opr = argvlist[1]
     if opr == '+':
         res=add(a,b)
     elif opr == '-':
