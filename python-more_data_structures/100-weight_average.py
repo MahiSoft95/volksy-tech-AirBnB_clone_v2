@@ -4,7 +4,7 @@ def weight_average(my_list=[]):
     count = 0
     if my_list:
         for x, y in my_list:
-            summmation += x * y
+            summation += x * y
             count += y
         average = summation/count
         return average
