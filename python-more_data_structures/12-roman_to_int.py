@@ -9,6 +9,6 @@ def roman_to_int(s):
     s = s.replace("XL", "XXXX").replace("XC", "LXXXX")
     s = s.replace("CD", "CCCC").replace("CM", "DCCCC")
     number = 0
-    if char in s:
+    for char in s:
         number += translations[char]
     return number
