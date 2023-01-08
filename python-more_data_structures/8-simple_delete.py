@@ -6,4 +6,4 @@ def simple_delete(a_dictionary, key=""):
             temp = True
     if temp:
         del a_dictionary[key]
-    return a_dictionariy
+    return a_dictionary
