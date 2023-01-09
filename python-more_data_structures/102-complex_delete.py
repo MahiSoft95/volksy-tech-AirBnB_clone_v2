@@ -6,6 +6,6 @@ def complex_delete(a_dictionary, value):
             if v == value:
                 temp = k
         if temp:
-            del a_dictionary[k]
+            del a_dictionary[temp]
             return (complex_delete(a_dictionary, value))
     return a_dictionary
