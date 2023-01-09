@@ -5,4 +5,4 @@ def safe_print_division(a, b):
     except(TypeError, ValueError):
         return "something went wrong"
     finally:
-        print("{}".format(div))
+        print("Inside result: {}".format(div))
