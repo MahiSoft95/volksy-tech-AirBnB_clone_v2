@@ -3,6 +3,7 @@ def safe_print_division(a, b):
     try:
         div = a/b
     except(TypeError, ValueError):
-        return "something went wrong"
+        return div = None
     finally:
         print("Inside result: {}".format(div))
+    return div
