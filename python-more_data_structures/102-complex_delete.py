@@ -7,5 +7,5 @@ def complex_delete(a_dictionary, value):
                 temp = k
         if temp:
             del a_dictionary[k]
-            return(complex_delete(a_dictionary, value)
-     return a_dictionary
+            return (complex_delete(a_dictionary, value))
+    return a_dictionary
