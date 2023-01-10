@@ -7,4 +7,4 @@ class Square:
     An empty class and
     this is my first class"""
     def __init__(self, size):
-        __size = size
+        self._Square__size = size
