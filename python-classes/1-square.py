@@ -6,5 +6,6 @@ class Square:
     """This class creates
     An empty class and
     this is my first class"""
-    def demo(self, size):
-        self.__size = size
+    def __init__(self, size):
+        __size = size
+        return __size
