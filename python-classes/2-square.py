@@ -7,7 +7,6 @@ class Square:
     """This class creates
     An empty class and
     this is my first class"""
-
     def __init__(self, size=0):
         """Square"""
         if type(size) not int:
