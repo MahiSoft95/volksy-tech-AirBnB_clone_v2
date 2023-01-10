@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""Square class started from here"""
+"""Square class started from here
+raising TypeError and Value Error"""
 
 
 class Square:
@@ -7,6 +8,7 @@ class Square:
     An empty class and
     this is my first class"""
     def __init__(self, size=0):
+        """Hellooo Initialization how are you"""
         if type(size) not int:
             raise TypeError("size must be an integer")
         if size < 0:
