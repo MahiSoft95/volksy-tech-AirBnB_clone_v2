@@ -9,6 +9,7 @@ class Square:
     this is my first class"""
 
     def __init__(self, size=0):
+        """Square"""
         if type(size) not int:
             raise TypeError("size must be an integer")
         if size < 0:
