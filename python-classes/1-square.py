@@ -8,4 +8,3 @@ class Square:
     this is my first class"""
     def __init__(self, size):
         __size = size
-        return __size
