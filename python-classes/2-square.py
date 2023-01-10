@@ -1,6 +1,5 @@
-#!/usr/bin/python3
-"""Square class started from here
-raising TypeError and Value Error"""
+#!/usr/bin/python3 here
+"""creates class Square with private instance attribute size"""
 
 
 class Square:
