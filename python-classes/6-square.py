@@ -5,7 +5,7 @@
 class Square:
     """The square class"""
     def __init__(self, size=0, position=(0, 0)):
-        self.__size = size
+        self.size = size
         self.position = position
 
     def size(self, value):
@@ -14,6 +14,7 @@ class Square:
         if value < 0:
             raise ValueError("size must be >= 0")
         self.__size = value
+        return self.__size
 
     def area(self):
         """""Hi area"""
@@ -21,12 +22,17 @@ class Square:
 
     def my_print(self):
         if self.__size > 0:
+            for y in range(self.__position[1]):
+                print()
             for column in range(self.__size):
+                for x in range(self.__position[0]):
+                    print(" ", end="")
                 for row in range(self.__size):
                     print("#", end="")
                 print()
         else:
             print()
+
     def position(self, value):
         """Position Method"""
         check = 0
@@ -40,7 +46,7 @@ class Square:
             if value[0] < 0 or value[1] < 0:
                 check += 1
                 break
-        if check == 0:
+        if check is 0:
             self.__position = value
         else:
             raise TypeError("position must be a tuple of 2 positive integers")
