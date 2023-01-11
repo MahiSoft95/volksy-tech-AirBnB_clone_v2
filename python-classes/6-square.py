@@ -9,7 +9,6 @@ class Square:
         self.position = position
 
     def size(self, value):
-
         if type(value) is not int:
             raise TypeError("size must be an integer")
         if value < 0:
