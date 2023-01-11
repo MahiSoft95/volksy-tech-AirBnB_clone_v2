@@ -9,6 +9,7 @@ class Square:
         self.position = position
 
     def size(self, value):
+
         if type(value) is not int:
             raise TypeError("size must be an integer")
         if value < 0:
@@ -17,10 +18,11 @@ class Square:
         return self.__size
 
     def area(self):
-        """""Hi area"""
+        """Hi area"""
         return self.__size * self.__size
 
     def my_print(self):
+        """my print"""
         if self.__size > 0:
             for y in range(self.__position[1]):
                 print()
