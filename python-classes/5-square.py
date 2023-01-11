@@ -23,5 +23,6 @@ class Square:
             for column in range(self.__size):
                 for row in range(self.__size):
                     print("#", end="")
+                print()
         else:
             print()
