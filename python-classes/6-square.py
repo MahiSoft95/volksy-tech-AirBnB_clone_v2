@@ -38,7 +38,7 @@ class Square:
     def position(self, value):
         """Position Method"""
         check = 0
-        when 1:
+        while 1:
             if type(value) is not tuple or len(velue) is not 2:
                 check += 1
                 break
