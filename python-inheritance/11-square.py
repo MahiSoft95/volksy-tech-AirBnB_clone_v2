@@ -2,7 +2,7 @@
 """Mahesh"""
 
 
-Rectangle = __import__('8i-rectangle').Rectangle
+Rectangle = __import__('8-rectangle').Rectangle
 
 
 class Square(Rectangle):
