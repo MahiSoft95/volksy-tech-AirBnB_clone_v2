@@ -12,6 +12,8 @@ SUCCESSFUL TEST CONDITIONS
 >>> matrix_divided([[2,2], [2,4]], 2)
 [[1.0, 1.0], [1.0, 2.0]]
 
->>> matrix_divided()
+
+>>> matrix_divided = __import__('2-matrix_divided').matrix_divided
+>>> matrix_divided(None, None)
 Traceback (most recent call last):
-TypeError: matrix_divided() missing 2 required positional argument: 'matrix' and 'div'
+TypeError: matrix must be a matrix (list of lists) of integers/floats
