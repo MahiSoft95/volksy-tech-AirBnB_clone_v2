@@ -6,13 +6,19 @@ doctest for 0-add_integer.py
 SUCCESSFUL TEST CONDITIONS
 ==========================
 
->>> add_integer = __import__('addInteger').add_integer
->>> add_integer(3, 2)
-5
+testing addition of two integers, both single digit
+::
+>>> add_integer = __import__('0-add_integer').add_integer
+>>> add_integer(1, 2)
+3
 
+testing addition of two integers, both multiple digits
+::
 >>> add_integer(99999, 87654321)
 87754320
 
+testing addition of two negative integers
+::
 >>> add_integer(-2, -3)
 -5
 
