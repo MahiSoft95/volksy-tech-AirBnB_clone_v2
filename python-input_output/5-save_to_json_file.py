@@ -5,5 +5,5 @@ import json
 
 def save_to_json_file(my_obj, filename):
     """def from_json_string(my_str):"""
-    with open(filename,'w') as f:
+    with open(filename, 'w') as f:
         f.write(json.dumps(my_obj))
