@@ -4,6 +4,7 @@
 # Usage: ./9-model_state_filter_a.py <mysql username> /
 #                                    <mysql password> /
 #                                    <database name>
+"""Module is documented very well darling!"""
 import sys
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker

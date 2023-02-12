@@ -5,6 +5,7 @@
 #                                   <mysql password> /
 #                                   <database name>
 #                                   <state name searched>
+"""Module is documented very well darling!"""
 import sys
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
