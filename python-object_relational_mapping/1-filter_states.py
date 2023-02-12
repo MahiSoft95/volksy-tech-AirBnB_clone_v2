@@ -3,6 +3,7 @@
 # Usage: ./1-filter_states.py <mysql username> \
 #                             <mysql password> \
 #                             <database name>
+"""Module is documented very well darling!"""
 import sys
 import MySQLdb
 
