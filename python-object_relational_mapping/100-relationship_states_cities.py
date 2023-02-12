@@ -4,6 +4,7 @@
 # Usage: ./100-relationship_states_cities.py <mysql username> /
 #                                            <mysql password> /
 #                                            <database name>
+"""Module is documented very well darling!"""
 import sys
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
