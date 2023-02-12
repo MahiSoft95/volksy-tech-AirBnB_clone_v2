@@ -3,6 +3,7 @@
 # Usage: ./4-cities_by_state.py <mysql username> \
 #                               <mysql password> \
 #                               <database name>
+"""Module is documented very well darling!"""
 import sys
 import MySQLdb
 

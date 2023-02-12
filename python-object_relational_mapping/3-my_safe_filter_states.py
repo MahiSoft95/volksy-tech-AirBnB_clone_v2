@@ -6,6 +6,7 @@
 #                                     <mysql password> \
 #                                     <database name> \
 #                                     <state name searched>
+"""Module is documented very well darling!"""
 import sys
 import MySQLdb
 
