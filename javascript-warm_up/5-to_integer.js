@@ -5,3 +5,4 @@ if (isNaN(cm)) {
   console.log('Not a number');
 } else {
   console.log('My number: ' + cm);
+}
